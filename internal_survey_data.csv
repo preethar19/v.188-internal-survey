@@ -1,0 +1,546 @@
+Default Report
+Last Modified: 2023-02-06 09:53:57 MST
+
+
+Q1 - Which departments are you affiliated with? (multiple select)
+#,Answer,%,Count
+1,News,24.00%,24
+2,Opinion,18.00%,18
+3,Photo,21.00%,21
+4,Recess,15.00%,15
+5,Sports,22.00%,22
+6,Other,0.00%,0
+,Total,100%,100
+
+Q2 - Are you enrolled in Trinity College of Arts and Sciences or the Pratt School of Engineering?
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,Are you enrolled in Trinity College of Arts and Sciences or the Pratt School of Engineering?,1.00,2.00,1.10,0.30,0.09,92
+
+#,Answer,%,Count
+1,Trinity,90.22%,83
+2,Pratt,9.78%,9
+,Total,100%,92
+
+Q3 - How would you best describe yourself? (multiple select)
+#,Answer,%,Count
+1,Asian,39.05%,41
+2,Black or African American,9.52%,10
+3,Indigenous American or Alaskan Native,0.95%,1
+4,Hispanic/Latinx,6.67%,7
+5,Native Hawaiian or Pacific Islander,0.00%,0
+6,White,43.81%,46
+7,Other,0.00%,0
+,Total,100%,105
+
+Q4 - What is your gender?
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,What is your gender?,2.00,5.00,2.40,0.55,0.31,92
+
+#,Answer,%,Count
+1,Non-binary / Gender queer,0.00%,0
+2,Female,61.96%,57
+3,Male,36.96%,34
+4,Other,0.00%,0
+5,Prefer not to say,1.09%,1
+,Total,100%,92
+
+Q5 - Do you identify with the gender you were assigned at birth?
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,Do you identify with the gender you were assigned at birth?,1.00,2.00,1.02,0.15,0.02,89
+
+#,Answer,%,Count
+1,Yes,97.75%,87
+2,No,2.25%,2
+,Total,100%,89
+
+Q6 - What is your sexual orientation?
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,What is your sexual orientation?,1.00,8.00,2.58,1.44,2.07,90
+
+#,Answer,%,Count
+1,Gay / Lesbian,5.56%,5
+2,Heterosexual,65.56%,59
+3,Bisexual,17.78%,16
+4,Asexual,3.33%,3
+5,Pansexual,1.11%,1
+6,Questioning,1.11%,1
+7,Other,2.22%,2
+8,Prefer not to say,3.33%,3
+,Total,100%,90
+
+Q7 - Are you a first-generation student?
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,Are you a first-generation student?,1.00,2.00,1.93,0.25,0.06,90
+
+#,Answer,%,Count
+1,Yes,6.67%,6
+2,No,93.33%,84
+3,Prefer not to say,0.00%,0
+,Total,100%,90
+
+Q8 - Are you a recruited varsity athlete?
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,Are you a recruited varsity athlete?,1.00,2.00,1.99,0.10,0.01,90
+
+#,Answer,%,Count
+1,Yes,1.11%,1
+2,No,98.89%,89
+,Total,100%,90
+
+Q9 - Are you an international student?
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,Are you an international student?,1.00,2.00,1.92,0.27,0.07,90
+
+#,Answer,%,Count
+1,Yes,7.78%,7
+2,No,92.22%,83
+,Total,100%,90
+
+Q10 - Do you receive financial aid from Duke?
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,Do you receive financial aid from Duke?,1.00,2.00,1.57,0.50,0.25,90
+
+#,Answer,%,Count
+1,Yes,43.33%,39
+2,No,56.67%,51
+,Total,100%,90
+
+Q11 - How many semesters have you been in The Chronicle for (including this semester)?
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,How many semesters have you been in The Chronicle for (including this semester)?,1.00,9.00,3.82,1.97,3.88,90
+
+#,Answer,%,Count
+1,1,1.11%,1
+2,2 (joined Fall 2022),42.22%,38
+3,3,0.00%,0
+4,4,27.78%,25
+5,5,6.67%,6
+6,6,13.33%,12
+7,7,0.00%,0
+8,8,7.78%,7
+9,9+,1.11%,1
+,Total,100%,90
+
+"Q12 - For the following questions, consider all semesters you've been in The Chronicle:"
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,I feel valued as a member of The Chronicle,2.00,5.00,4.24,0.88,0.78,87
+2,I have grown and improved in my role throughout my time at The Chronicle,3.00,5.00,4.66,0.50,0.25,87
+3,I have made meaningful friendships through The Chronicle,1.00,5.00,3.89,1.03,1.07,87
+
+#,Question,Strongly Disagree,,Somewhat disagree,,Neither agree nor disagree,,Somewhat agree,,Strongly agree,,Total
+1,I feel valued as a member of The Chronicle,0.00%,0,8.05%,7,5.75%,5,40.23%,35,45.98%,40,87
+2,I have grown and improved in my role throughout my time at The Chronicle,0.00%,0,0.00%,0,1.15%,1,32.18%,28,66.67%,58,87
+3,I have made meaningful friendships through The Chronicle,4.60%,4,3.45%,3,21.84%,19,39.08%,34,31.03%,27,87
+
+"Q13 - For the following questions, consider The Chronicle as a whole:"
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,The Chronicle (as a whole) values and actively seeks to promote diversity through its policies and practices,1.00,5.00,4.12,0.93,0.87,86
+2,The Chronicle (as a whole) has a working environment in which different views and perspectives are valued,1.00,5.00,4.30,0.95,0.91,86
+3,"All staff are treated with respect at The Chronicle (as a whole), regardless of level of experience",2.00,5.00,4.43,0.83,0.69,86
+4,"I believe The Chronicle (as a whole) is a safe and supportive environment for BIPOC individuals (Black, Indigenous, &amp; People of Color)",2.00,5.00,4.31,0.85,0.73,86
+5,I believe The Chronicle (as a whole) is a safe and supportive environment for womxn and gender minorities,3.00,5.00,4.69,0.53,0.29,86
+6,I believe The Chronicle (as a whole) is a safe and supportive environment for LGBQ+ individuals,3.00,5.00,4.57,0.66,0.43,86
+7,"The Chronicle feels interdepartmentally “cohesive” (connected, united, whole)",1.00,5.00,2.97,1.38,1.89,86
+
+#,Question,Strongly Disagree,,Somewhat disagree,,Neither agree nor disagree,,Somewhat agree,,Strongly agree,,Total
+1,The Chronicle (as a whole) values and actively seeks to promote diversity through its policies and practices,1.16%,1,4.65%,4,17.44%,15,34.88%,30,41.86%,36,86
+2,The Chronicle (as a whole) has a working environment in which different views and perspectives are valued,1.16%,1,4.65%,4,13.95%,12,23.26%,20,56.98%,49,86
+3,"All staff are treated with respect at The Chronicle (as a whole), regardless of level of experience",0.00%,0,4.65%,4,8.14%,7,26.74%,23,60.47%,52,86
+4,"I believe The Chronicle (as a whole) is a safe and supportive environment for BIPOC individuals (Black, Indigenous, & People of Color)",0.00%,0,3.49%,3,15.12%,13,27.91%,24,53.49%,46,86
+5,I believe The Chronicle (as a whole) is a safe and supportive environment for womxn and gender minorities,0.00%,0,0.00%,0,3.49%,3,24.42%,21,72.09%,62,86
+6,I believe The Chronicle (as a whole) is a safe and supportive environment for LGBQ+ individuals,0.00%,0,0.00%,0,9.30%,8,24.42%,21,66.28%,57,86
+7,"The Chronicle feels interdepartmentally “cohesive” (connected, united, whole)",13.95%,12,34.88%,30,11.63%,10,19.77%,17,19.77%,17,86
+
+"Q15 - For the following questions, consider either your department or The Chronicle as a whole:"
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,I feel free to share my ideas and feedback (positive and negative) to other staff/lowermast/uppermast in my department without fear of negative consequences,1.00,5.00,4.36,0.83,0.70,86
+2,I know who my department editors/leaders are and have interacted with them before,2.00,5.00,4.77,0.52,0.27,86
+3,I feel comfortable asking my department editors for Chronicle help and Chronicle-related questions,3.00,5.00,4.79,0.46,0.21,86
+4,I feel free to share my ideas and feedback (positive and negative) to Chronicle leadership without fear of negative consequences,1.00,5.00,4.42,0.84,0.71,86
+5,"I feel comfortable interacting with Chronicle staff/colleagues on a social, personal, and non-work-related level",2.00,5.00,4.28,0.84,0.71,86
+
+#,Question,Strongly disagree,,Somewhat disagree,,Neither agree nor disagree,,Somewhat agree,,Strongly agree,,Total
+1,I feel free to share my ideas and feedback (positive and negative) to other staff/lowermast/uppermast in my department without fear of negative consequences,1.16%,1,3.49%,3,5.81%,5,37.21%,32,52.33%,45,86
+2,I know who my department editors/leaders are and have interacted with them before,0.00%,0,1.16%,1,1.16%,1,17.44%,15,80.23%,69,86
+3,I feel comfortable asking my department editors for Chronicle help and Chronicle-related questions,0.00%,0,0.00%,0,2.33%,2,16.28%,14,81.40%,70,86
+4,I feel free to share my ideas and feedback (positive and negative) to Chronicle leadership without fear of negative consequences,1.16%,1,3.49%,3,5.81%,5,31.40%,27,58.14%,50,86
+5,"I feel comfortable interacting with Chronicle staff/colleagues on a social, personal, and non-work-related level",0.00%,0,4.65%,4,11.63%,10,34.88%,30,48.84%,42,86
+
+"Q14 - For the following questions, consider the department you are most closely affiliated with:"
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,My department values and actively seeks to promote diversity through its policies and practices,2.00,5.00,4.20,0.87,0.76,86
+2,My department has a working environment in which different views and perspectives are valued,2.00,5.00,4.56,0.73,0.53,86
+3,"All staff are treated with respect in my department, regardless of level of experience",2.00,5.00,4.64,0.63,0.39,86
+4,"I believe my department is a safe and supportive environment for BIPOC individuals (Black, Indigenous, &amp; People of Color)",2.00,5.00,4.53,0.74,0.55,86
+5,I believe my department is a safe and supportive environment for womxn and gender minorities,2.00,5.00,4.70,0.63,0.40,86
+6,I believe my department is a safe and supportive environment for LGBQ+ individuals,3.00,5.00,4.60,0.70,0.49,86
+7,"My department feels “cohesive” (connected, united, whole)",1.00,5.00,4.06,1.09,1.19,86
+8,I am satisfied with the amount and quality of feedback I receive from my editor(s) in my department,2.00,5.00,4.43,0.81,0.66,86
+
+#,Question,Strongly Disagree,,Somewhat disagree,,Neither agree nor disagree,,Somewhat agree,,Strongly agree,,Total
+1,My department values and actively seeks to promote diversity through its policies and practices,0.00%,0,4.65%,4,16.28%,14,33.72%,29,45.35%,39,86
+2,My department has a working environment in which different views and perspectives are valued,0.00%,0,3.49%,3,3.49%,3,26.74%,23,66.28%,57,86
+3,"All staff are treated with respect in my department, regardless of level of experience",0.00%,0,1.16%,1,4.65%,4,23.26%,20,70.93%,61,86
+4,"I believe my department is a safe and supportive environment for BIPOC individuals (Black, Indigenous, & People of Color)",0.00%,0,1.16%,1,11.63%,10,19.77%,17,67.44%,58,86
+5,I believe my department is a safe and supportive environment for womxn and gender minorities,0.00%,0,1.16%,1,5.81%,5,15.12%,13,77.91%,67,86
+6,I believe my department is a safe and supportive environment for LGBQ+ individuals,0.00%,0,0.00%,0,12.79%,11,13.95%,12,73.26%,63,86
+7,"My department feels “cohesive” (connected, united, whole)",2.33%,2,10.47%,9,11.63%,10,30.23%,26,45.35%,39,86
+8,I am satisfied with the amount and quality of feedback I receive from my editor(s) in my department,0.00%,0,3.49%,3,10.47%,9,25.58%,22,60.47%,52,86
+
+Q24 - I am on The Chronicle’s “upper masthead” leadership team
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,I am on The Chronicle’s “upper masthead” leadership team,1.00,2.00,1.87,0.33,0.11,86
+
+#,Answer,%,Count
+1,Yes,12.79%,11
+2,No,87.21%,75
+,Total,100%,86
+
+Q18 - I know who is on The Chronicle’s “upper masthead” leadership team
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,I know who is on The Chronicle’s “upper masthead” leadership team,1.00,2.00,1.32,0.47,0.22,75
+
+#,Answer,%,Count
+1,Yes,68.00%,51
+2,No,32.00%,24
+,Total,100%,75
+
+"Q19 - I have interacted with The Chonicle's ""upper masthead"" leadership team"
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,I have interacted with The Chonicle's &quot;upper masthead&quot; leadership team,1.00,2.00,1.14,0.34,0.12,51
+
+#,Answer,%,Count
+1,Yes,86.27%,44
+2,No,13.73%,7
+,Total,100%,51
+
+Q20 - I feel ________ asking those on The Chronicle’s upper masthead team Chronicle-related questions or for Chronicle help
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,I feel ________ asking those on The Chronicle’s upper masthead team Chronicle-related questions or for Chronicle help,1.00,5.00,3.84,1.01,1.01,75
+
+#,Answer,%,Count
+1,Extremely uncomfortable,2.67%,2
+2,Somewhat uncomfortable,6.67%,5
+3,Neither comfortable nor uncomfortable,24.00%,18
+4,Somewhat comfortable,37.33%,28
+5,Extremely comfortable,29.33%,22
+,Total,100%,75
+
+Q21 - I know who the Editor-in-Chief of The Chronicle is
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,I know who the Editor-in-Chief of The Chronicle is,1.00,2.00,1.12,0.32,0.10,86
+
+#,Answer,%,Count
+1,Yes,88.37%,76
+2,No,11.63%,10
+,Total,100%,86
+
+Q22 - I have interacted with the Editor-in-Chief of The Chronicle
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,I have interacted with the Editor-in-Chief of The Chronicle,1.00,2.00,1.20,0.40,0.16,76
+
+#,Answer,%,Count
+1,Yes,80.26%,61
+2,No,19.74%,15
+,Total,100%,76
+
+Q23 - I feel ________ asking the Editor-in-Chief Chronicle-related questions or for Chronicle help.
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,I feel ________ asking the Editor-in-Chief Chronicle-related questions or for Chronicle help.,1.00,5.00,3.72,1.27,1.62,86
+
+#,Answer,%,Count
+1,Extremely uncomfortable,4.65%,4
+2,Somewhat uncomfortable,17.44%,15
+3,Neither comfortable nor uncomfortable,18.60%,16
+4,Somewhat comfortable,19.77%,17
+5,Extremely comfortable,39.53%,34
+,Total,100%,86
+
+"Q17 - Have you experienced any unwelcome comment(s) or conduct at The Chronicle that you felt was offensive, embarrassing, or hurtful (e.g., inappropriate jokes, slurs, rumors, hurtful gossip, isolating behaviors)?"
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,"Have you experienced any unwelcome comment(s) or conduct at The Chronicle that you felt was offensive, embarrassing, or hurtful (e.g., inappropriate jokes, slurs, rumors, hurtful gossip, isolating behaviors)?",1.00,3.00,1.24,0.48,0.23,86
+
+#,Answer,%,Count
+1,Never,77.91%,67
+2,Rarely,19.77%,17
+3,Sometimes,2.33%,2
+4,Always,0.00%,0
+,Total,100%,86
+
+"Q37 - If you feel comfortable sharing, please feel free to describe what the comment / conduct was and how it was (or was not) dealt with. Your responses will be kept confidential."
+"If you feel comfortable sharing, please feel free to describe what the comment / conduct was and how it was (or was not) dealt with. Your responses will be kept confidential."
+Generally there is a lack of communication and yet when you don’t do something in the exact way that certain editors want there seems to be a passive aggressive response from them. I like what Indo at the Chronicle but if I didn’t the actual practice of doing what I do I wouldn’t be a member because the environment is not fun and I often feel under appreciated. It feels like kids (barely legal adults) running other kids and the power dynamic is atrocious. It is very clear that people do not respect other people’s time.
+"Not this year "
+
+Q25 - Does your department have a mentorship program?
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,Does your department have a mentorship program?,1.00,4.00,2.62,1.26,1.59,86
+
+#,Answer,%,Count
+1,"Yes, and I am participating",33.72%,29
+2,"Yes, but I am NOT participating",4.65%,4
+3,No,27.91%,24
+4,I don’t know,33.72%,29
+,Total,100%,86
+
+Q26 - I have met with my mentor
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,I have met with my mentor,1.00,2.00,1.07,0.26,0.07,28
+
+#,Answer,%,Count
+1,Yes,92.86%,26
+2,No,7.14%,2
+,Total,100%,28
+
+Q27 - I feel comfortable approaching my mentor with Chronicle-related questions and Chronicle help
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,I feel comfortable approaching my mentor with Chronicle-related questions and Chronicle help,1.00,2.00,1.04,0.19,0.03,28
+
+#,Answer,%,Count
+1,Yes,96.43%,27
+2,No,3.57%,1
+,Total,100%,28
+
+"Q28 - I feel comfortable interacting with my mentor on a social, personal, and non-work-related level"
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,"I feel comfortable interacting with my mentor on a social, personal, and non-work-related level",1.00,2.00,1.14,0.35,0.12,28
+
+#,Answer,%,Count
+1,Yes,85.71%,24
+2,No,14.29%,4
+,Total,100%,28
+
+Q29 - How did you first hear about The Chronicle? (No more than a few words)
+How did you first hear about The Chronicle? (No more than a few words)
+East Campus fair
+Club Fair
+Activity fair
+Resource Fair
+Activities fair
+A friend of mine mentioned it to me
+Through a friend who actually dropped out before I joined due to the environment
+"Saw news stories in my news feed "
+A friend
+Club fair
+looked it up
+I learned about it when I came to Duke
+In high school
+friend
+"From a friend "
+Club Fair
+"Before coming to Duke, was interested in joining the newspaper so searched it up"
+Knew I wanted to write so I looked it up before getting to Duke
+Friend
+"My dad sent me a Facebook Chronicle recruiting post. "
+instagram
+facebook
+Email
+Club Fair on East Campus
+Instagram
+Read it online
+Flyers on campus
+Activities fair freshman year
+Chatter freshman year
+"Was asked to write an article the summer before my freshman year "
+Email
+Father worked with Chronicle as an undergrad
+Classmate
+"club fair "
+"Recommended to me by Katie Tan, Managing Editor"
+Through a friend
+open house
+"Social media, club fair"
+Info sessions
+o-week
+Facebook
+Margot
+A friend
+Friends on staff
+A friend in it
+Friend
+I came across The Chronicle through social media
+I heard about the Chronicle at the beginning of the semester at a resource fair.
+Club Fair
+Friend
+Club Fair
+club fair
+Saw the paper
+before I applied to Duke - searched up the ED admit article that was released the same day ED decisions came out
+Emails
+online & club fair
+facebook
+At the club fair
+Knew about it before starting my first semester
+Own research
+Facebook
+Send-home
+Friend
+Engagement fair
+my cousin
+A friend
+"Open house "
+word of mouth
+Activities fair
+
+Q30 - Why did you join The Chronicle? (No more than a few words)
+Why did you join The Chronicle? (No more than a few words)
+"I have always wanted to be a journalist and loved writing, and it was an opportunity to meet a great group of people. "
+"I just kept coming back to the meetings, wasn't really thinking about it!"
+I like taking photos
+To gain experience in Journalism
+A friend in Chron
+To practice and improve my photography skills
+I like the job that I do
+"I like journalism "
+Interested in sports photo
+"learn photography "
+interested in journalism
+I wanted to join the opinion team
+Because I was bored during covid
+thought it would be cool to share my opinions
+"Interested in writing "
+I love writing
+Interest in journalism
+I love sports and want to get into sports media
+Love writing:)
+"I joined on a whim because I love sports. "
+i wanted to be involved with student run journalism
+Wanted to write abt campus
+wanted to write
+Big opinions
+"Wrote in high school, heard Chronicle was very fun"
+I like writing
+To have a platform to share my ideas
+I like journalism and sports
+Improve my writing skills
+It was a welcoming and fun environment
+Wanting to write about sports / wanting to be more involved with extracurriculars
+"I wanted to write somehow and opinion was an open avenue "
+Bored during COVID
+I wanted to write for the sports section after being section editor for my high school paper
+interest in writing
+"club fair "
+To gain writing experience and interact with the larger duke community
+To meet others interested in pop culture and the arts!
+Improve writing skills
+friend recommended
+I love writing and love sports :)
+"I like writing about sports "
+wanted to write
+Liked journalism in high school
+Margot
+Just to have a small hobby on the side.
+Interest in sports photo
+Wanted to write and shoot sports
+Learn photo
+I believe it would be an opportunity for me to immerse myself into the Duke community
+I joined the Chronicle to gain experience in Journalism.
+"Interested in writing and news "
+"I always wanted to write "
+Chance to write (esp. as an engineer)
+love working on a newspaper!
+Like writing
+wanted to combine writing with learning about the University
+I liked writing abt food
+I wanted to write for fun
+interested in student journalism
+"It seemed like (and is) a great community and I wanted to be a part of that, plus I wanted to get better at writing "
+Worked for my high school paper
+Test out journalism
+Past journalist experience
+Wanted to try something new
+Writing experience/resume
+To engage with arts at Duke
+I wanted to go to MBB games
+Friend recommendation
+"Previous journalism experience "
+i wanted to write
+To report on campus news
+
+Q31 - I intend to be working at The Chronicle a year from now
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,I intend to be working at The Chronicle a year from now,1.00,4.00,1.76,1.17,1.36,83
+
+#,Answer,%,Count
+1,Yes,68.67%,57
+2,No,1.20%,1
+3,Undecided,15.66%,13
+4,This is my last year at Duke,14.46%,12
+,Total,100%,83
+
+Q32 - Please briefly explain why you are undecided OR do not intend to work at The Chronicle a year from now
+Please briefly explain why you are undecided OR do not intend to work at The Chronicle a year from now
+I have a good relationship with the current EIC and am hesitant about who the next one might be
+Again I like my job but at the chronicle I feel very under appreciated. So if this feeling gets to be to great it might be healthier for me to quit especially since I’m literally doing it for free because I like doing it but then I have also been asked by people who are not in the Chronicle if I freelance.
+not sure with other time commitments
+"too big of a time commitment "
+I don't know if writing is the right avenue for me to reach my goals in sports media.
+Unsure if I will be here
+"I’m a DKU student "
+"Next year is my last year here, and having already been upper mast I'm not sure there's another position for me"
+"No reason, depends on how busy I would be."
+Workload balance
+"This will depend on course load, opportunities to conduct research"
+Graduating
+
+Q33 - Do you intend to apply for higher / leadership positions in The Chronicle in the future and feel supported in doing so?
+#,Field,Minimum,Maximum,Mean,Std Deviation,Variance,Count
+1,Do you intend to apply for higher / leadership positions in The Chronicle in the future and feel supported in doing so?,1.00,6.00,3.19,1.70,2.89,84
+
+#,Answer,%,Count
+1,I currently DO NOT have a leadership position and I intend to apply for one,23.81%,20
+2,I currently DO NOT have a leadership position and I DO NOT intend to apply for one,14.29%,12
+3,Undecided,20.24%,17
+4,This is my last year at Duke,14.29%,12
+5,I currently have a leadership position and I intend to apply for another one,15.48%,13
+6,I currently have a leadership position and I DO NOT intend to apply for another one,11.90%,10
+,Total,100%,84
+
+Q34 - Please briefly explain why you are undecided OR do not intend to apply for leadership positions at The Chronicle
+Please briefly explain why you are undecided OR do not intend to apply for leadership positions at The Chronicle
+I am not sure what my commitment levels will be next year timing-wise
+Being a graduate student I feel I would not have time to carry on a leadership position.
+I don't know how much time I want to commit to Chron in future years
+I only have one more year and I’m not sure if I will be qualified for a leadership position.
+If I stay at the Chronicle then yes I do intend to apply for leadership to help mitigate some of the aforementioned issues
+"No time "
+"Need to evaluate time commitment "
+"time commitment "
+I don't think I have the time to devote to a leadership position
+Gonna graduate
+I am unsure of responsibilities of other positions and how the my role would change
+content with where i am
+"I may go another direction next year, and either way I don't feel comfortable taking on that much work."
+"Imight depending on how this semester goes "
+sdlkfgj
+too many commitments already
+I have too many commitments
+"I want to focus on writing instead of editing "
+I have a lower level leadership position that I am comfortable with the requirements of and I feel others are more involved than me and would do a better job in upper level positions
+"I’m a DKU student and my future is unclear "
+I'll be a senior and will try to be moving at my own pace
+I want to leave the spot open for someone else
+"Currently on upoermasthead and unsure where I’d like to go leadership wise from here "
+"No real reason, just want this to be a small hobby on the side."
+"Will be abroad in the fall, but may be interested the following year"
+Don’t feel like it
+I do not attend to apply for a leadership position because I am a Graduate student who plans on graduating Spring 2024.
+Not sure if I want to continue
+"I am working on handling my current workload, unsure that I could take on more"
+I like writing more than editing
+I want a break next year lol
+Time commitment might be too high
+I much prefer writing to editing.
+
+Q36 - Feel free to use this space to reflect on this survey or any experiences you have had in The Chronicle. All responses are confidential.
+Feel free to use this space to reflect on this survey or any experiences you have had in The Chronicle. All responses are confidential.
+"I like how people of all ranges of experience can join "
+My experience has been great!
+Overall neutral experience. There have been some fun experiences and some considerably unenjoyable ones.
+;sdkbgdf
+"I think the departments could have more interconnectedness, socially at the very least"
+My experience with The Chronicle has been extremely positive overall!
+I have enjoyed my experience at the Chronicle!
+"Wish we could interact more to truly know each other. "
+"Love recess, a great time, but we haven’t posted any articles in a while though"
+I had a rough start but now I’m having a blast
