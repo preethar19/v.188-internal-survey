@@ -1,0 +1,89 @@
+---
+title: "internal-survey"
+author: "preetha ramachandran"
+date: "2023-02-15"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Packages
+
+```{r packages}
+library(tidyverse)
+```
+
+# Data
+
+```{r load_data}
+internal <- read_csv("data/internal-survey.csv")
+```
+
+# Exploratory analysis
+
+```{r}
+internal
+```
+
+```{r, include = FALSE}
+newint <- internal %>% 
+  mutate(department = `Which departments are you affiliated with? (multiple select)`,
+         school = `Are you enrolled in Trinity College of Arts and Sciences or the Pratt School of Engineering?`,
+         race = `How would you best describe yourself? (multiple select)`,
+         gender = `What is your gender?`,
+         trans = `Do you identify with the gender you were assigned at birth?`,
+         sexor = `What is your sexual orientation?`,
+         firstgen = `Are you a first-generation student?`,
+         athlete = `Are you a recruited varsity athlete?`,
+         int = `Are you an international student?`,
+         finaid = `Do you receive financial aid from Duke?`,
+         inChron = `How many semesters have you been in The Chronicle for (including this semester)?`,
+         valuedPaper = `For the following questions, consider all semesters you've been in The Chronicle: - I feel valued as a member of The Chronicle`,
+         grownImproved = `For the following questions, consider all semesters you've been in The Chronicle: - I have grown and improved in my role throughout my time at The Chronicle`,
+         meaningfulPaper = `For the following questions, consider all semesters you've been in The Chronicle: - I have made meaningful friendships through The Chronicle`,
+         diversityPaper = `For the following questions, consider The Chronicle as a whole: - The Chronicle (as a whole) values and actively seeks to promote diversity through its policies and practices`,
+         envirPaper = `For the following questions, consider The Chronicle as a whole: - The Chronicle (as a whole) has a working environment in which different views and perspectives are valued`,
+         respectPaper = `For the following questions, consider The Chronicle as a whole: - All staff are treated with respect at The Chronicle (as a whole), regardless of level of experience`,
+         BIPOCPaper = `For the following questions, consider The Chronicle as a whole: - I believe The Chronicle (as a whole) is a safe and supportive environment for BIPOC individuals (Black, Indigenous, & People of Color)`,
+         GMPaper = `For the following questions, consider The Chronicle as a whole: - I believe The Chronicle (as a whole) is a safe and supportive environment for womxn and gender minorities`,
+         LGBTPaper = `For the following questions, consider The Chronicle as a whole: - I believe The Chronicle (as a whole) is a safe and supportive environment for LGBQ+ individuals`,
+         cohesivePaper = `For the following questions, consider The Chronicle as a whole: - The Chronicle feels interdepartmentally “cohesive” (connected, united, whole)`,
+         feedbackPaper = `For the following questions, consider either your department or The Chronicle as a whole: - I feel free to share my ideas and feedback (positive and negative) to other staff/lowermast/uppermast in my department without fear of negative consequences`,
+         departmentEd = `For the following questions, consider either your department or The Chronicle as a whole: - I know who my department editors/leaders are and have interacted with them before`,
+         departmentHelp = `For the following questions, consider either your department or The Chronicle as a whole: - I feel comfortable asking my department editors for Chronicle help and Chronicle-related questions`,
+         leadershipHelp = `For the following questions, consider either your department or The Chronicle as a whole: - I feel free to share my ideas and feedback (positive and negative) to Chronicle leadership without fear of negative consequences`,
+         personal = `For the following questions, consider either your department or The Chronicle as a whole: - I feel comfortable interacting with Chronicle staff/colleagues on a social, personal, and non-work-related level`,
+         dptDiversity = `For the following questions, consider the department you are most closely affiliated with: - My department values and actively seeks to promote diversity through its policies and practices`,
+         dptPerspective = `For the following questions, consider the department you are most closely affiliated with: - My department has a working environment in which different views and perspectives are valued`,
+         dptRespect = `For the following questions, consider the department you are most closely affiliated with: - All staff are treated with respect in my department, regardless of level of experience`,
+         dptBIPOC = `For the following questions, consider the department you are most closely affiliated with: - I believe my department is a safe and supportive environment for BIPOC individuals (Black, Indigenous, & People of Color)`,
+         dptWomen = `For the following questions, consider the department you are most closely affiliated with: - I believe my department is a safe and supportive environment for womxn and gender minorities`,
+         dptLGBT = `For the following questions, consider the department you are most closely affiliated with: - I believe my department is a safe and supportive environment for LGBQ+ individuals`,
+         dptCohesive = `For the following questions, consider the department you are most closely affiliated with: - My department feels “cohesive” (connected, united, whole)`,
+         dptFeedback = `For the following questions, consider the department you are most closely affiliated with: - I am satisfied with the amount and quality of feedback I receive from my editor(s) in my department`,
+         onLeadership = `I am on The Chronicle’s “upper masthead” leadership team`,
+         knowLeadership = `I know who is on The Chronicle’s “upper masthead” leadership team`,
+         interactLeadership = `I have interacted with The Chonicle's "upper masthead" leadership team`,
+         leadershipHelp = `I feel ________ asking those on The Chronicle’s upper masthead team Chronicle-related questions or for Chronicle help`,
+         knowEIC = `I know who the Editor-in-Chief of The Chronicle is`,
+         interactEIC = `I have interacted with the Editor-in-Chief of The Chronicle`,
+         EIChelp = `I feel ________ asking the Editor-in-Chief Chronicle-related questions or for Chronicle help.`,
+         harassment = `Have you experienced any unwelcome comment(s) or conduct at The Chronicle that you felt was offensive, embarrassing, or hurtful (e.g., inappropriate jokes, slurs, rumors, hurtful gossip, isolating behaviors)?`,
+         commentHarass = `If you feel comfortable sharing, please feel free to describe what the comment / conduct was and how it was (or was not) dealt with. Your responses will be kept confidential.`,
+         mentorship = `Does your department have a mentorship program?`,
+         metMentor = `I have met with my mentor`,
+         mentorHelp = `I feel comfortable approaching my mentor with Chronicle-related questions and Chronicle help`,
+         mentorPersonal = `I feel comfortable interacting with my mentor on a social, personal, and non-work-related level`,
+         learnChron = `How did you first hear about The Chronicle? (No more than a few words)`,
+         whyJoin = `Why did you join The Chronicle? (No more than a few words)`,
+         workChron = `I intend to be working at The Chronicle a year from now`,
+         whyNot = `Please briefly explain why you are undecided OR do not intend to work at The Chronicle a year from now`,
+         willApply = `Do you intend to apply for higher / leadership positions in The Chronicle in the future and feel supported in doing so?`,
+         whyNoApply = `Please briefly explain why you are undecided OR do not intend to apply for leadership positions at The Chronicle`,
+         comments = `Feel free to use this space to reflect on this survey or any experiences you have had in The Chronicle. All responses are confidential.`
+         )
+```
+
+
