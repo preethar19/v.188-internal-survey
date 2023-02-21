@@ -86,4 +86,91 @@ newint <- internal %>%
          )
 ```
 
+```{r}
+data <- newint %>% 
+  filter(Progress == 100)
+```
+After filtering incomplete surveys, there are 85 total submissions. 
+
+```{r}
+data %>% 
+  ggplot(mapping = aes(x = forcats::fct_infreq(department))) +
+  geom_bar(fill = "blue") +
+  labs(x = "Department",
+       y = "Count",
+       title = "Number of Responses per Department") +
+  theme_minimal(base_size = 8)
+```
+
+```{r fig.height = 5}
+data %>% 
+  filter(department == "News" | department == "Opinion" | department == "Recess" | department == "Sports" | department == "Photo") %>% 
+  ggplot(aes(x = forcats::fct_infreq(race))) + 
+  geom_bar(fill = "blue") +
+  labs(x = "Department",
+       y = "Count",
+       title = "Race by Department") +
+  facet_wrap(vars(department)) +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+```
+
+```{r fig.height = 5}
+data %>% 
+  filter(department == "News" | department == "Opinion" | department == "Recess" | department == "Sports" | department == "Photo") %>% 
+  ggplot(aes(x = forcats::fct_infreq(gender), fill = gender)) + 
+  geom_bar() +
+  labs(x = "Department",
+       y = "Count",
+       title = "Gender by Department") +
+  facet_wrap(vars(department)) +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+```
+
+```{r fig.height = 5}
+data %>% 
+  filter(department == "News" | department == "Opinion" | department == "Recess" | department == "Sports" | department == "Photo") %>% 
+  ggplot(aes(x = forcats::fct_infreq(firstgen), fill = firstgen)) + 
+  geom_bar() +
+  labs(x = "Department",
+       y = "Count",
+       title = "Firstgen by Department") +
+  facet_wrap(vars(department)) +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+```
+
+```{r fig.height = 5}
+data %>% 
+  filter(department == "News" | department == "Opinion" | department == "Recess" | department == "Sports" | department == "Photo") %>% 
+  ggplot(aes(x = forcats::fct_infreq(int), fill = int)) + 
+  geom_bar() +
+  labs(x = "Department",
+       y = "Count",
+       title = "International Students by Department") +
+  facet_wrap(vars(department)) +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+```
+
+```{r fig.height = 5}
+data %>% 
+  filter(department == "News" | department == "Opinion" | department == "Recess" | department == "Sports" | department == "Photo") %>% 
+  ggplot(aes(x = forcats::fct_infreq(finaid), fill = finaid)) + 
+  geom_bar() +
+  labs(x = "Department",
+       y = "Count",
+       title = "FinAid status by Department") +
+  facet_wrap(vars(department)) +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+```
+
+```{r fig.height = 5}
+data %>% 
+  filter(department == "News" | department == "Opinion" | department == "Recess" | department == "Sports" | department == "Photo") %>% 
+  ggplot(aes(x = inChron, fill = inChron)) + 
+  geom_bar() +
+  labs(x = "Department",
+       y = "Count",
+       title = "How long have you been in Chron?") +
+  facet_wrap(vars(department)) +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+```
 
